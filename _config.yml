@@ -25,7 +25,7 @@ description: >- # this means to ignore newlines until "baseurl:"
   mechatronischem Engineering und Scientific Machine Learning aus. Unsere Expertise liegt darin, komplexe Interaktionen
   zwischen mechanischen, elektronischen und weiteren Subsystemen zu verstehen, zu modellieren und zu optimieren. 
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://una-auxme.github.io " # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://una-auxme.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: jekyllrb
 github_username:  jekyll
 
