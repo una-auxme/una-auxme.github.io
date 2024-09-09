@@ -1,6 +1,6 @@
 email: lars.mikelsons@uni-a.com
 description: >-
-  Der Chair of Scientific Computing in Mechatronics zeichnet sich durch eine wegweisende Verknüpfung von physikalischem Verständnis,
+  Der Lehrstuhl für Mechatronik zeichnet sich durch eine wegweisende Verknüpfung von physikalischem Verständnis,
   mechatronischem Engineering und Scientific Machine Learning aus. Unsere Expertise liegt darin, komplexe Interaktionen
   zwischen mechanischen, elektronischen und weiteren Subsystemen zu verstehen, zu modellieren und zu optimieren. 
 baseurl: ""
@@ -50,7 +50,7 @@ defaults:
   - scope:
       path: "_pages/de"
     values:
-      title: "Lehrstuhl für Scientific Computing in Mechatronics"
+      title: "Lehrstuhl für Mechatronik"
       lang: de
       header:
         overlay_color: "#000"
@@ -65,7 +65,7 @@ defaults:
   - scope:
       path: "_pages/en"
     values:
-      title: "Chair of Scientific Computing in Mechatronics"
+      title: "Chair of Mechatronics"
       lang: en
       header:
         overlay_color: "#000"
