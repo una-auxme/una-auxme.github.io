@@ -1,0 +1,42 @@
+<div class=filter>
+  <h3>Filter:</h3>
+  <p>
+    {% if include.active == 0 %}
+      <a class="btn btn--success" href="/sb">{{ site.data.l10n.sb }}</a>
+    {% else %}
+      <a class="btn btn--light-outline" href="/sb">{{ site.data.l10n.sb }}</a>
+    {% endif %}
+    {% if include.active == 1 %}
+      <a class="btn btn--success" href="/sm">{{ site.data.l10n.sm }}</a>
+    {% else %}
+    <a class="btn btn--light-outline" href="/sm">{{ site.data.l10n.sm }}</a>
+    {% endif %}
+  </p>
+  <p>
+    {% if include.active == 2 %}
+      <a class="btn btn--success" href="/fm">{{ site.data.l10n.fm }}</a>
+    {% else %}
+    <a class="btn btn--light-outline" href="/fm">{{ site.data.l10n.fm }}</a>
+    {% endif %}
+    {% if include.active == 3 %}
+      <a class="btn btn--success" href="/pm">{{ site.data.l10n.pm }}</a>
+    {% else %}
+    <a class="btn btn--light-outline" href="/pm">{{ site.data.l10n.pm }}</a>
+    {% endif %}
+  </p>
+  <p>
+    {% if include.active == 4 %}
+      <a class="btn btn--success" href="/ba">{{ site.data.l10n.ba }}</a>
+    {% else %}
+    <a class="btn btn--light-outline" href="/ba">{{ site.data.l10n.ba }}</a>
+    {% endif %}
+    {% if include.active == 5 %}
+      <a class="btn btn--success" href="/ma">{{ site.data.l10n.ma }}</a>
+    {% else %}
+    <a class="btn btn--light-outline" href="/ma">{{ site.data.l10n.ma }}</a>
+    {% endif %}
+  </p>
+  <p>
+    <a class="btn btn--primary" href="/">{{ site.data.l10n.reset }}</a>
+  </p>
+</div>

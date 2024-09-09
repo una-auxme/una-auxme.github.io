@@ -1,0 +1,11 @@
+{% for lang in site.languages %}
+    {% assign lang_name = site.data[lang].l10n.lang_name %}
+    {% if lang == site.active_lang %}
+    {% else %}
+        {% if lang == site.default_lang %}
+            <a href=" /">{{ lang_name }}</a>
+        {% else %}
+            <a href="/{{ lang }}">{{ lang_name }}</a>
+        {% endif %}
+    {% endif %}
+{% endfor %}
