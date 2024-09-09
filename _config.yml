@@ -6,6 +6,7 @@ description: >-
 baseurl: ""
 url: "https://una-auxme.github.io"
 github_username:  una-auxme
+repository: una-auxme/una-auxme.github.io
 
 # Build settings
 # https://github.com/mmistakes/minimal-mistakes
