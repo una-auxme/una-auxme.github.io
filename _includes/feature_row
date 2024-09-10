@@ -4,44 +4,42 @@
     <div class="archive__item">
       <div class="archive__item-teaser">
         {% if include.img_src %}
-          <img src="{{ include.img_src }}">
-          <span class="archive__item-caption">{{ include.copyright | default: site.data.l10n.copyright }}</span>
+          <div style="position:relative">
+            <img src="{{ include.img_src }}">
+            <span class="archive__item-caption">{{ include.copyright | default: site.data.l10n.copyright }}</span>
+          </div>
         {% endif %}
-      </div>
-      <div class="archive__item-body" markdown="1">{{ include.content }}</div>
-      <p>
+        {% if include.tags %}
+        <h4>Tags:</h4>
+        <ul>
+          {% for t in include.tags %}
+            {% if t == "sb" %}
+              <li>{{ site.data.l10n.sb }}</li>
+            {% endif %}
+            {% if t == "sm" %}
+              <li>{{ site.data.l10n.sm }}</li>
+            {% endif %}
+            {% if t == "fm" %}
+              <li>{{ site.data.l10n.fm }}</li>
+            {% endif %}
+            {% if t == "pm" %}
+              <li>{{ site.data.l10n.pm }}</li>
+            {% endif %}
+            {% if t == "ba" %}
+              <li>{{ site.data.l10n.ba }}</li>
+            {% endif %}
+            {% if t == "ma" %}
+              <li>{{ site.data.l10n.ma }}</li>
+            {% endif %}
+          {% endfor %}
+        </ul>
+        {% endif %}
         <a class="btn btn--primary" href="https://www.uni-augsburg.de/de/fakultaet/fai/informatik/prof/imech/team/{{ include.contact }}">{{ site.data.l10n.contact }}</a>
         {% if include.additional_info %}
           <a class="btn btn--primary" href="{{ include.additional_info }}">{{ site.data.l10n.additional_info }}</a>
         {% endif %}
-      </p>
-      {% if include.tags %}
-        <p>
-          Tags:
-          <ul>
-            {% for t in include.tags %}
-              {% if t == "sb" %}
-                <li>{{ site.data.l10n.sb }}</li>
-              {% endif %}
-              {% if t == "sm" %}
-                <li>{{ site.data.l10n.sm }}</li>
-              {% endif %}
-              {% if t == "fm" %}
-                <li>{{ site.data.l10n.fm }}</li>
-              {% endif %}
-              {% if t == "pm" %}
-                <li>{{ site.data.l10n.pm }}</li>
-              {% endif %}
-              {% if t == "ba" %}
-                <li>{{ site.data.l10n.ba }}</li>
-              {% endif %}
-              {% if t == "ma" %}
-                <li>{{ site.data.l10n.ma }}</li>
-              {% endif %}
-            {% endfor %}
-          </ul>
-        </p>
-      {% endif %}
+      </div>
+      <div class="archive__item-body" markdown="1">{{ include.content }}</div>
     </div>
   </div>
 </div>
