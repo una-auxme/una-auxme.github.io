@@ -1,5 +1,6 @@
 ---
 lang: de
+img_src: assets\luttkus\robot_sf.png
 title: Integration von Robot-SF in SLURM-Umgebung
 tags: ["pm"]
 date: 2024-09-10

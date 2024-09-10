@@ -1,5 +1,6 @@
 ---
 lang: de
+img_src: assets\luttkus\paf.png
 title: Praktikum Autonomes Fahren Refactoring
 tags: ["pm"]
 date: 2024-09-10
