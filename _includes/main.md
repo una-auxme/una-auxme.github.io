@@ -130,5 +130,5 @@
 
 {% for t in topics %}
 ### {{ t.title }}
-  {% include feature_row img_src=t.img_src content=t.content contact=t.contact additional_info=t.additional_info tags=t.tags %}
+  {% include feature_row img_src=t.img_src copyright=t.copyright content=t.content contact=t.contact additional_info=t.additional_info tags=t.tags %}
 {% endfor %}

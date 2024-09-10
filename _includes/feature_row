@@ -5,7 +5,7 @@
       <div class="archive__item-teaser">
         {% if include.img_src %}
           <img src="{{ include.img_src }}">
-          <span class="archive__item-caption">{{ site.data.l10n.copyright }}</span>
+          <span class="archive__item-caption">{{ include.copyright | default: site.data.l10n.copyright }}</span>
         {% endif %}
       </div>
       <div class="archive__item-body" markdown="1">{{ include.content }}</div>
