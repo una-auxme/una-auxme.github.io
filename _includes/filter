@@ -37,6 +37,13 @@
     {% endif %}
   </p>
   <p>
+    {% if include.active == 6 %}
+      <a class="btn btn--success" href="/hiwi">{{ site.data.l10n.hiwi }}</a>
+    {% else %}
+    <a class="btn btn--light-outline" href="/hiwi">{{ site.data.l10n.hiwi }}</a>
+    {% endif %}
+  </p>
+  <p>
     <a class="btn btn--primary" href="/">{{ site.data.l10n.reset }}</a>
   </p>
 </div>
