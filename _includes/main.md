@@ -125,7 +125,7 @@
   {% endif %}
 {% endfor %}
 
-{% assign topics = topics | sort: "date" %}
+{% assign topics = topics | sort: "date" | reverse %}
 
 
 {% for t in topics %}
