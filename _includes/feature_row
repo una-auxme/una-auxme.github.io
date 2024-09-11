@@ -31,6 +31,9 @@
             {% if t == "ma" %}
               <li>{{ site.data.l10n.ma }}</li>
             {% endif %}
+            {% if t == "hiwi" %}
+              <li>{{ site.data.l10n.hiwi }}</li>
+            {% endif %}
           {% endfor %}
         </ul>
         {% endif %}
