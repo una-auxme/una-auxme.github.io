@@ -1,7 +1,7 @@
 ---
 lang: de
 img_src: assets\boborzi\diffusion.png
-title: Anpassung vonDiffusion Modelle
+title: Konditionierung von Diffusion Modellen
 tags: ["pm", "ma"]
 date: 2024-09-11
 ---
