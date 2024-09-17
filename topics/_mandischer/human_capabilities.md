@@ -1,6 +1,6 @@
 ---
 lang: de
-img_src: assets\mandischer\ablebot.png
+img_src: assets\mandischer\ablebot.jpg
 title: Kombination von Arbeitmedizin und KI zur Vorhersage menschlicher Fähigkeiten
 additional_info: assets\mandischer\ablebot.pdf
 tags: ["pm", "fm", "ba", "ma"]
