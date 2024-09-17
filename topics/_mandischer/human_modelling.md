@@ -1,9 +1,9 @@
 ---
 lang: de
-img_src: assets\mandischer\ablebot.png
+img_src: assets\mandischer\ablebot.jpg
 title: Virtuelle Lerndaten für die soziale Mensch-Roboter-Interaktion - Modellierung und Simulation von Arbeitsprozessen mit Menschen mit Behinderung
 additional_info: assets\mandischer\ablebot.pdf
-tags: ["sm", "sb", "pm", "fm", "ba", "ma"]
+tags: ["sm", "sb", "pm", "fm", "ba", "ma", "hiwi"]
 date: 2024-09-16
 ---
 
