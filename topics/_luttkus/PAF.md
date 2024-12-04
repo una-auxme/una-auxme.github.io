@@ -1,8 +1,0 @@
----
-lang: de
-img_src: assets\luttkus\paf.png
-title: Praktikum Autonomes Fahren Refactoring
-tags: ["pm", "hiwi"]
-date: 2024-09-11
----
-Das Praktikum Autonomes Fahren findet in jedem Wintersemester statt. Wenn du bereits an dem Projekt gearbeitet hast, kannst du auch im Sommersemester weiter daran arbeiten. [PAF](https://github.com/una-auxme/paf23)
