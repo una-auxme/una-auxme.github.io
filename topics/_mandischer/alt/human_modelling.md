@@ -1,13 +1,13 @@
 ---
 lang: de
-img_src: assets\mandischer\ablebot.jpg
+img_src: assets\mandischer\opensim.jpg
 title: Virtuelle Lerndaten für die soziale Mensch-Roboter-Interaktion - Modellierung und Simulation von Arbeitsprozessen mit Menschen mit Behinderung
 additional_info: assets\mandischer\ablebot.pdf
 tags: ["sm", "sb", "pm", "fm", "ba", "ma", "hiwi"]
 date: 2024-09-16
 ---
 
-In meiner Forschung beschäftige ich mich mit der Vorhersage von menschlichen Fähigkeiten, um damit Robotervrhaltne zu planen und insbesondere Menschen mit Behinderung in ihrem Arbeitsalltag zu unterstützen. Dabei werden Methoden aus der Arbeitsmedizin und dem Maschinellen Lernen kombiniert. Ziel ist, dass eines Tages Personen egal welcher körperlichen Fähigkeiten und Voraussetzungen gemeinsam am Arbeitsalltag teilhaben können.
+In meiner Forschung beschäftige ich mich mit der Vorhersage von menschlichen Fähigkeiten, um damit Roboterverhalten zu planen und insbesondere Menschen mit Behinderung in ihrem Arbeitsalltag zu unterstützen. Dabei werden Methoden aus der Arbeitsmedizin und dem Maschinellen Lernen kombiniert. Ziel ist, dass eines Tages Personen egal welcher körperlichen Fähigkeiten und Voraussetzungen gemeinsam am Arbeitsalltag teilhaben können.
 
 In dieser Arbeit sollen aufbauend auf einer bestehenden Simulation in OpenSim neue Arbeitsprozesse und Behinderungskomplexe simuliert werden. Der Fokus der Arbeit kann flexibel gelegt werden auf die Bereiche Modellierung oder Solver/Simulation. Die Simulation dient der Generierung künstlicher Lerndaten für die späteren Lernmethoden.
 
