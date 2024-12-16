@@ -3,8 +3,8 @@ lang: de
 img_src: assets\mandischer\ablebot.jpg
 title: Kombination von Arbeitsmedizin und KI zur Vorhersage menschlicher Fähigkeiten
 additional_info: assets\mandischer\ablebot.pdf
-tags: ["pm", "fm", "ba", "ma", "hiwi"]
-date: 2024-12-06
+tags: ["pm", "fm", "ba", "ma"]
+date: 2024-12-16
 ---
 
 In meiner Forschung beschäftige ich mich mit der Vorhersage von menschlichen Fähigkeiten, um damit Robotervrhaltne zu planen und insbesondere Menschen mit Behinderung in ihrem Arbeitsalltag zu unterstützen. Dabei werden Methoden aus der Arbeitsmedizin und dem Maschinellen Lernen kombiniert. Ziel ist, dass eines Tages Personen egal welcher körperlichen Fähigkeiten und Voraussetzungen gemeinsam am Arbeitsalltag teilhaben können.
