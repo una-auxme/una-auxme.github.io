@@ -1,7 +1,7 @@
 ---
 lang: de
 img_src: assets\mandischer\ablebot.jpg
-title: Biases und Muster in der Bewertung menschicher Fähigkeiten
+title: Biases und Muster in der Bewertung menschlicher Fähigkeiten
 additional_info: 
 tags: ["pm", "fm"]
 date: 2024-12-16
