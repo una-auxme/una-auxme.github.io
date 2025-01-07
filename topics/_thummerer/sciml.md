@@ -11,6 +11,7 @@ Wenn mächtige, aber schwerfällige **Simulationsmodelle** aus der Industrie und
 
 Beispielsweise stehen folgende Aufgaben-Pakete bereit:
 
+- Integration von Functional Mock-Up Units (FMUs) über [*FMI.jl*](https://github.com/ThummeTo/FMI.jl) in das [*ModelingToolkit.jl*](https://github.com/SciML/ModelingToolkit.jl) (MTK)
 - Implementierung von *Scheduled Execution* in [*FMI.jl*](https://github.com/ThummeTo/FMI.jl)
 - Implementierung von *System Structure and Parameterization* in [*FMI.jl*](https://github.com/ThummeTo/FMI.jl)
 - ...
