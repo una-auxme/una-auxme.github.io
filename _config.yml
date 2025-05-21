@@ -88,7 +88,7 @@ defaults:
   - scope:
       path: "topics/_hoepfner"
     values:
-      contact: "valentin-hoepfner"
+      contact: "valentin-hopfner"
   - scope:
       path: "topics/_hofmann"
     values:
