@@ -1,6 +1,6 @@
 ---
 lang: de
-img_src: assets\mandischer\rehabot.jpg
+img_src: assets\mandischer\rehabot.png
 title: Reharobotik für Armfunktionstraining nach Schlaganfall
 additional_info:
 tags: ["ma"]
