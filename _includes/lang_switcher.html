@@ -1,11 +1,11 @@
-{%- comment -%} Minimal language switcher: non-active languages redirect to the site root '/' {%- endcomment -%}
 {%- for lang in site.languages -%}
-    {%- if lang != page.lang -%}
-        {%- assign lang_name = site.data[lang].l10n.lang_name -%}
-        {%- if lang == 'en' -%}
-            <a href="{{ '/en/' | relative_url }}">{{ lang_name }}</a>
-        {%- else -%}
-            <a href="{{ '/' | relative_url }}">{{ lang_name }}</a>
-        {%- endif -%}
-    {%- endif -%}
-{%- endfor -%}
+    {% assign lang_name = site.data[lang].l10n.lang_name %}
+    {% if lang == site.active_lang %}
+    {% else %}
+        {% if lang == site.default_lang %}
+            <a href=" /">{{ lang_name }}</a>
+        {% else %}
+            <a href="/{{ lang }}">{{ lang_name }}</a>
+        {% endif %}
+    {% endif %}
+{% endfor %}

@@ -4,6 +4,10 @@ title: "RoboCup@Home"
 lang: de
 ---
 
+# Team Zirbi
+
+[//]: # (Placeholder assets used: /assets/robocup/placeholder.png)
+
 <div class="sponsor-bar">
   <div class="sponsor-logos">
     <img src="/assets/robocup/logo_auxme.png" alt="AuxMe logo" class="sponsor-logo" />
@@ -12,10 +16,6 @@ lang: de
     <img src="/assets/robocup/logo_prensilia.png" alt="Presilia logo" class="sponsor-logo" />
   </div>
 </div>
-
-# Team Zirbi
-
-[//]: # (Placeholder assets used: /assets/robocup/placeholder.png)
 
 <!-- PDF preview using iframe (more compatible) -->
 <div class="pdf-preview">
