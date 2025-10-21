@@ -32,7 +32,7 @@ Das Team Zirbi hat seinen Sitz an der Universität Augsburg. Hauptsponsor des Te
 
 ![Team Platzhalterbild](/assets/robocup/team.jpg){: .align-center }
 
-Das Team besteht derzeit aus neun Mitgliedern, darunter Dr.-Ing. Nils Mandischer und Roboter Jeutter. Das Hauptteam besteht aus:
+Das Team besteht derzeit aus neun Mitgliedern, darunter Dr.-Ing. Nils Mandischer und Robert Jeutter. Das Hauptteam besteht aus:
 - Daniel Gabler
 - Aleksander Michalak
 - Sofia Öttl

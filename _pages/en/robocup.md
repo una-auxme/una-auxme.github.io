@@ -32,7 +32,7 @@ Team Zirbi is located at the Uniersity of Augsburg. The teams main sponsor is Ar
 
 ![Team placeholder image](/assets/robocup/team.jpg){: .align-center }
 
-The team currently consists of 9 members including Dr.-Ing. Nils Mandischer and Roboter Jeutter. The main team are:
+The team currently consists of 9 members including Dr.-Ing. Nils Mandischer and Robert Jeutter. The main team are:
 - Daniel Gabler
 - Aleksander Michalak
 - Sofia Öttl
