@@ -144,3 +144,19 @@ $primary-color: #489324;
 
 /* Hide the non-clickable active language label to avoid showing overlapping text */
 .lang--active { display: none; }
+
+/* Color the toc header (Topics / Themen) to the primary color */
+.toc .nav__title {
+  background-color: $primary-color !important;
+  color: #ffffff !important;
+  padding: 0.5rem 1rem !important;
+  border-radius: 0 !important; /* remove rounded edges */
+  display: block !important; /* fill container width */
+  width: 100% !important;
+  box-sizing: border-box !important;
+  font-weight: 600 !important;
+}
+.toc .nav__title i {
+  color: #ffffff !important;
+  margin-right: 0.5rem !important;
+}

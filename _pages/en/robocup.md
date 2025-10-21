@@ -2,6 +2,7 @@
 permalink: /robocup/
 title: "RoboCup@Home"
 lang: en
+excerpt: "Find out about team Zirbi"
 ---
 
 # Team Zirbi
