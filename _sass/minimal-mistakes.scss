@@ -32,6 +32,9 @@ article.page {
 @import "minimal-mistakes/search";
 @import "minimal-mistakes/syntax";
 
+/* local overrides */
+@import "custom_masthead";
+
 /* Utility classes */
 @import "minimal-mistakes/utilities";
 

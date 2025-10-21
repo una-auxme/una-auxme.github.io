@@ -1,6 +1,6 @@
 {% capture logo_path %}{{ site.logo }}{% endcapture %}
 
-<div class="masthead">
+<div class="masthead{% if page.lang == 'en' %} masthead--en{% endif %}">
   <div class="masthead__inner-wrap">
     <div class="masthead__menu">
       <nav id="site-nav" class="greedy-nav">
@@ -11,11 +11,35 @@
           {{ site.masthead_title | default: site.data.l10n.title }}
           {% if site.subtitle %}<span class="site-subtitle">{{ site.subtitle }}</span>{% endif %}
         </a>
+        {%- comment -%} Persistent button linking to main topics page. On the RoboCup page show a short team info message instead of the usual label. {%- endcomment -%}
+        {% if page.url == '/robocup/' or page.permalink == '/robocup/' %}
+          {% if page.lang == 'de' %}
+            <a class="btn btn--primary" href="/{{ '' | relative_url }}">Mehr Informationen zum Team Zirbi.</a>
+          {% else %}
+            <a class="btn btn--primary" href="/{{ '' | relative_url }}">Find more infos on team Zirbi.</a>
+          {% endif %}
+        {% else %}
+          <a class="btn btn--primary" href="/{{ '' | relative_url }}">{{ site.data.l10n.student_theses }}</a>
+        {% endif %}
+        {%- comment -%} RoboCup button placed immediately to the right of the theses button for visual grouping {%- endcomment -%}
+        {%- for link in site.data.navigation.main -%}
+          {% if link.title == 'robocup' %}
+            {% assign robocup_label = site.data.l10n[link.title] %}
+            <a class="btn btn--primary masthead__robocup-btn" href="{{ link.url | relative_url }}"{% if link.description %} title="{{ link.description }}"{% endif %}>{{ robocup_label }}</a>
+          {% endif %}
+        {%- endfor -%}
+        {% comment %} Show back-to-topics button on RoboCup page {% endcomment %}
+        {% if page.url == '/robocup/' or page.permalink == '/robocup/' %}
+          <a class="btn btn--primary" href="/{{ '' | relative_url }}">{{ site.data.l10n.back_to_topics }}</a>
+        {% endif %}
         <ul class="visible-links">
           {%- for link in site.data.navigation.main -%}
+            {% unless link.title == 'robocup' %}
             <li class="masthead__menu-item">
-              <a href="{{ link.url | relative_url }}"{% if link.description %} title="{{ link.description }}"{% endif %}>{{ site.data.l10n.[link.title] }}</a>
+              {% assign link_label = site.data.l10n[link.title] %}
+              <a href="{{ link.url | relative_url }}"{% if link.description %} title="{{ link.description }}"{% endif %}>{{ link_label }}</a>
             </li>
+            {% endunless %}
           {%- endfor -%}
         </ul>
         <div class="lang-switcher">

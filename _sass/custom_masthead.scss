@@ -1,0 +1,146 @@
+/* Custom masthead tweaks for RoboCup button spacing and EN sizing */
+
+/* Global button color overrides */
+$primary-color: #489324;
+
+/* All buttons get the primary color as background by default. Use !important to override theme defaults. */
+.btn {
+  background-color: $primary-color !important;
+  border-color: $primary-color !important;
+  color: #ffffff !important;
+}
+
+/* Outline variant: colored border and text, transparent background */
+.btn.btn--light-outline,
+.btn--light-outline {
+  background-color: transparent !important;
+  border-color: $primary-color !important;
+  color: $primary-color !important;
+}
+
+/* Primary modifier explicitly styled as well */
+.btn--primary {
+  background-color: $primary-color !important;
+  border-color: $primary-color !important;
+  color: #ffffff !important;
+}
+
+/* Hover / focus states */
+.btn:hover,
+.btn:focus,
+.btn:active {
+  background-color: #D7F2CA !important;
+  border-color: #489324 !important; /* keep primary border */
+  color: #0b3b11 !important; /* dark text for readability on light hover */
+  outline: none;
+}
+
+/* Keep small accessibility focus ring */
+.btn:focus {
+  box-shadow: 0 0 0 3px rgba(72,147,36,0.18);
+}
+
+/* Masthead specific tweaks */
+.masthead {
+  .btn--primary {
+    margin-left: 0.75rem; /* base gap between buttons */
+  }
+
+  .masthead__robocup-btn {
+    margin-left: 0.5rem; /* small offset to tuck next to theses button */
+  }
+
+  &.masthead--en {
+    .btn--primary {
+      padding: 0.4rem 0.65rem; /* slightly smaller buttons in EN layout */
+      font-size: 0.95rem;
+    }
+    .masthead__robocup-btn {
+      margin-left: 0.5rem;
+    }
+  }
+}
+
+/* Make the hero action button filled like the masthead primary button */
+
+/* Stronger override: target both hero wrappers and large button variant to ensure fill wins */
+.page__hero .btn.btn--light-outline,
+.page__hero .btn.btn--light-outline.btn--large,
+.page__hero--overlay .btn.btn--light-outline,
+.page__hero--overlay .btn.btn--light-outline.btn--large {
+  background: $primary-color !important;
+  background-image: none !important;
+  background-color: $primary-color !important;
+  border-color: $primary-color !important;
+  color: #ffffff !important;
+  opacity: 1 !important;
+}
+
+.page__hero .btn.btn--light-outline:hover,
+.page__hero .btn.btn--light-outline:focus,
+.page__hero--overlay .btn.btn--light-outline:hover,
+.page__hero--overlay .btn.btn--light-outline:focus,
+.page__hero .btn.btn--light-outline.btn--large:hover,
+.page__hero .btn.btn--light-outline.btn--large:focus,
+.page__hero--overlay .btn.btn--light-outline.btn--large:hover,
+.page__hero--overlay .btn.btn--light-outline.btn--large:focus {
+  background-color: #D7F2CA !important;
+  border-color: $primary-color !important;
+  color: #0b3b11 !important;
+}
+
+/* Sponsor logos row */
+.sponsor-logos {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1rem;
+  margin-bottom: 1rem;
+  width: 100%;
+  padding: 0 1rem;
+}
+.sponsor-logo {
+  max-height: 72px;
+  width: auto;
+  display: inline-block;
+  opacity: 0.95;
+}
+
+/* White bar wrapper for sponsor logos to ensure contrast on any background */
+.sponsor-bar {
+  background-color: #ffffff;
+  padding: 0.75rem 0; /* vertical padding to create the bar */
+  box-shadow: 0 1px 4px rgba(0,0,0,0.06);
+  width: 100%;
+  display: block;
+}
+
+/* Inner container to keep logos aligned with page content */
+.sponsor-bar .sponsor-logos {
+  max-width: 1100px;
+  margin: 0 auto; /* center within the bar */
+  padding: 0 1rem; /* keep the horizontal padding consistent */
+}
+
+@media (max-width: 640px) {
+  .sponsor-logo { max-height: 56px; }
+  .sponsor-logos { gap: 0.5rem; }
+  .sponsor-bar { padding: 0.5rem 0; }
+}
+
+/* Language switcher layout to avoid overlapping labels */
+.lang-switcher {
+  display: inline-flex;
+  gap: 0.5rem;
+  align-items: center;
+}
+.lang-switcher a {
+  color: inherit;
+  text-decoration: none;
+}
+.lang--active {
+  font-weight: 600;
+}
+
+/* Hide the non-clickable active language label to avoid showing overlapping text */
+.lang--active { display: none; }
