@@ -33,6 +33,10 @@ footer:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/una-auxme"
+    - label: "Impressum"
+      url: "/impressum/"
+    - label: "Imprint"
+      url: "/en/impressum/"
 
 defaults:
   - scope:
