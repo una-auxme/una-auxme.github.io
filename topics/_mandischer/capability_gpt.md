@@ -4,7 +4,7 @@ img_src: assets\mandischer\capability_gpt.png
 title: Vorhersage von Leistungsfähigkeit von Menschen durch GPT Modelle
 additional_info: assets\mandischer\capability_gpt.pdf
 tags: ["ma"]
-date: 2025-09-03
+date: 2025-11-07
 ---
 
 Am Lehrstuhl für Mechatronik untersuchen wir Mensch-Roboter Interaktion von einem besonderen Blickwinkel. Jeder Mensch besitzt Fähigkeiten. Diese lassen sich bereits über arbeitsmedizinische Dokumentationsverfahren bewerten. Gleichsam lassen sich Anforderungen an einen Arbeitsprozess definieren. Über den Vergleich von Fähigkeiten und Anforderungen lässt sich dann auswerten, in welchen Bereichen eine Person eingesetzt werden kann. Das ist besonders dann wichtig, wenn es sich bei den Personen um Menschen mit Behinderung oder alternde Arbeitnehmer handelt, die eben nicht in beliebigen Arbeitsprozessen eingesetzt werden können.

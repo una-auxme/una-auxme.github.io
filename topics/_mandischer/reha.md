@@ -4,7 +4,7 @@ img_src: assets\mandischer\rehabot.png
 title: Reharobotik für Armfunktionstraining nach Schlaganfall
 additional_info:
 tags: ["ma"]
-date: 2025-09-03
+date: 2025-11-07
 ---
 
 Gemeinsam mit dem Therapiezentrum Burgau wollen wir zeitnah mit der Entwicklung eines Reharoboters starten, der zur teilautomatisierten Therapie im Armfunktionstraining nach Schlaganfall eingesetzt werden soll. Der Roboter verstärkt und führt dabei die Bewegung der Patientinnen und Patienten mit Armparese (min. halbseitige Lähmung der oberen Extremitäten) und entlastet dadurch die Therapeutinnen und Therapeuten.
