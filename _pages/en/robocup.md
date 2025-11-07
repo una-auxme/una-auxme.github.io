@@ -26,13 +26,13 @@ excerpt: "Find out about team Zirbi"
 
 ## Overview
 
-Team Zirbi is located at the Uniersity of Augsburg. The teams main sponsor is Aracom IT Services GmbH, with co-sponsoring of Universal Robots A/S and Presilia S.R.L. Instead of many other teams, the team is composed purely of master degree students as part of the teaching course ``Autonomous Robotics Lab''. The lab is guided by Dr.-Ing. Nils Mandischer (University of Augsburg) and supported by Robert Jeutter (Aracom IT Services).
+Team Zirbi is located at the Uniersity of Augsburg. The teams main sponsor is Aracom IT Services GmbH, with co-sponsoring of Universal Robots A/S and Presilia S.R.L. Instead of many other teams, the team is composed purely of master degree students as part of the teaching course ``Autonomous Robotics Lab''. The lab is guided by Dr.-Ing. Nils Mandischer (University of Augsburg) and supported by RAracom IT Services.
 
 ## Team
 
 ![Team placeholder image](/assets/robocup/team.jpg){: .align-center }
 
-The team currently consists of 9 members including Dr.-Ing. Nils Mandischer and Roboter Jeutter. The main team are:
+The team currently consists of eight members including Dr.-Ing. Nils Mandischer. The main team are:
 - Daniel Gabler
 - Aleksander Michalak
 - Sofia Öttl

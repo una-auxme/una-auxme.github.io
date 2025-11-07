@@ -1,11 +1,34 @@
 <div class="page__footer-follow">
-  <ul class="social-icons">    
+  <ul class="social-icons">
     {% if site.footer.links %}
+      {% comment %} Render non-impressum links (e.g., GitHub) first {% endcomment %}
       {% for link in site.footer.links %}
         {% if link.label and link.url %}
-          <li><a href="{{ link.url }}" rel="nofollow noopener noreferrer"><i class="{{ link.icon | default: 'fas fa-link' }}" aria-hidden="true"></i> {{ link.label }}</a></li>
+          {% assign url = link.url | append: "" %}
+          {% unless url == '/impressum/' or url == '/en/impressum/' or link.label == 'Impressum' or link.label == 'Imprint' %}
+            <li><a href="{{ link.url }}" rel="nofollow noopener noreferrer"><i class="{{ link.icon | default: 'fas fa-link' }}" aria-hidden="true"></i> {{ link.label }}</a></li>
+          {% endunless %}
         {% endif %}
       {% endfor %}
+
+      {% comment %} Now try to find the actual impressum page for the current locale in site.pages and link to it. This avoids hardcoded paths that could mismatch generated URLs. {% endcomment %}
+      {% assign impressum_page = nil %}
+      {% for p in site.pages %}
+        {% if p.url contains 'impressum' and p.lang == page.lang %}
+          {% assign impressum_page = p %}
+          {% break %}
+        {% endif %}
+      {% endfor %}
+      {% if impressum_page %}
+        <li><a href="{{ impressum_page.url | relative_url }}" rel="nofollow noopener noreferrer"><i class="fas fa-fw fa-file"></i> {% if page.lang == 'en' %}Imprint{% else %}Impressum{% endif %}</a></li>
+      {% else %}
+        {% comment %} Fallback to conventional paths if the page couldn't be found during build {% endcomment %}
+        {% if page.lang == 'en' %}
+          <li><a href="{{ '/en/impressum/' | relative_url }}" rel="nofollow noopener noreferrer"><i class="fas fa-fw fa-file"></i> Imprint</a></li>
+        {% else %}
+          <li><a href="{{ '/impressum/' | relative_url }}" rel="nofollow noopener noreferrer"><i class="fas fa-fw fa-file"></i> Impressum</a></li>
+        {% endif %}
+      {% endif %}
     {% endif %}
   </ul>
 </div>
