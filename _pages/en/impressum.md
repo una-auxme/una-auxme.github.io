@@ -6,18 +6,32 @@ lang: en
 
 ## Imprint
 
-Chair of Mechatronics
+Chair of Mechatronics, University of Augsburg  
+Am Technologiezentrum 8  
+86159 Augsburg
 
-University of Augsburg
-
-Contact:
-
-- Address: Am Technologiezentrum 8, 86159 Augsburg
-- Email: lars.mikelson(at)uni-a.de
-- Phone: +49 821 598 69270
-
-Responsible for content according to § 55 para. 2 RStV:
-
+**Represented by**:  
 Prof. Dr.-Ing. Lars Mikelsons
 
-Note: This is a template. Please review and adapt legally where necessary.
+## Contact
+
+Phone: +49 (0) 821 598 69270  
+Email: lars.mikelsons@uni-a.de
+
+## VAT ID
+
+VAT identification number according to § 27 a of the German VAT Act:  
+DE192097107
+
+## Editorially responsible
+
+Prof. Dr.-Ing. Lars Mikelsons  
+Am Technologiezentrum 8  
+86159 Augsburg
+
+## Consumer dispute resolution/Universal arbitration board
+
+We are not willing or obligated to participate in dispute resolution proceedings before a
+consumer arbitration board.
+
+Source: https://www.e-recht24.de
