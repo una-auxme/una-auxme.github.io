@@ -3,7 +3,7 @@ lang: de
 img_src: assets\trommer\mgn_logo.png
 title: Weiterentwicklung unserer Softwarepakete für Graph Neural Networks
 additional_info: https://github.com/una-auxme/MeshGraphNets.jl
-tags: ["sb", "sm", "hiwi"]
+tags: ["pm", "ba", "ma", "hiwi"]
 date: 2024-09-16
 ---
 
