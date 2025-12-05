@@ -3,7 +3,7 @@ lang: de
 img_src: assets\kircher\Showroom_1.png
 title: Messung von Sprühbildern von Partikelsimulationen
 tags: ["sm", "fm", "sb"]
-date: 2024-12-06
+date: 2025-12-06
 ---
 Diese studentische Arbeit befasst sich mit der Erfassung von Sprühbildern in Partikelsystemen.
 
