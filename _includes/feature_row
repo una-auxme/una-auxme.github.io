@@ -6,7 +6,7 @@
         {% if include.img_src %}
           <div style="position:relative">
             <img src="{{ include.img_src }}">
-            <span class="archive__item-caption">{{ include.copyright | default: site.data.l10n.copyright }}</span>
+            <span class="archive__item-caption">{% if include.copyright %}&copy; {{ include.copyright }}{% else %}{{ site.data.l10n.copyright }}{% endif %}</span>
           </div>
         {% endif %}
         {% if include.tags %}
