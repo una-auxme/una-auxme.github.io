@@ -1,9 +1,9 @@
 ---
 lang: de
 img_src: assets\mandischer\hololens.jpg
-title: Virtual Reality in der robotergunterstützten Reha
+title: Virtual Reality in der robotergestützten Reha
 additional_info:
-tags: ["pm,ba,ma"]
+tags: ["pm", "ba", "ma"]
 date: 2026-02-02
 ---
 
