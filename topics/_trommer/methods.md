@@ -2,7 +2,7 @@
 lang: de
 title: Weiterentwicklung der Methodik von Graph Neural Networks
 additional_info: https://github.com/una-auxme/MeshGraphNets.jl
-tags: ["pm", "ba", "ma", "hiwi"]
+tags: ["pm", "ba", "ma"]
 date: 2025-11-13
 ---
 
