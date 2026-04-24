@@ -10,6 +10,6 @@ Die Energiewende stellt uns vor die Herausforderung, Energie effizient zu nutzen
 
 Hier setzt das spannende Feld des Scientific Machine Learning an: Statt mühsamer manueller Vereinfachungen ermöglichen Methoden wie Variational Autoencoder (VAE) kombiniert mit Neural Ordinary Differential Equations (Neural ODEs) die automatisierte Ableitung dynamischer Ersatzmodelle. In diesem Projekt untersuchst du das Training solcher Modelle – speziell sogenannter Balanced Neural ODEs, die vielseitig einsetzbar sind, z. B. bei Wärmepumpen oder Kraftwerken.
 
-Ziel dieser Arbeit ist es, eine Ansatz zu iterativen Trainingsdatenerzeugung der Ersatzmodelle zu erzeugen. Spezifisch soll spezielle an Stellen, an denen das Ersatzmodell schlecht performet, gezielt zusätzliche Daten erzeugt werden.
+Ziel dieser Arbeit ist es, eine Ansatz zu iterativen Trainingsdatenerzeugung der Ersatzmodelle zu erzeugen. Spezifisch soll speziell an Stellen, an denen das Ersatzmodell schlecht performet, gezielt zusätzliche Daten erzeugt werden.
 
 Wenn du neugierig auf moderne Modellierung, Machine Learning und echte Anwendungsrelevanz bist, ist das dein Projekt! Komm gerne auf mich zu, um mehr zu erfahren.

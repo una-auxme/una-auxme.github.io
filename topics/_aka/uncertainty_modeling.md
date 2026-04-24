@@ -6,7 +6,7 @@ tags: ["ba","pm","ma"]
 date: 2026-04-22
 ---
 
-Unsicherheiten begegnen uns ueberall: in Wettervorhersagen, durch Rundungsfehler im Computer, Bauteiltoleranzen oder Messungenauigkeiten. In Simulationen werden sie jedoch haeufig nur am Rande beruecksichtigt.
+Unsicherheiten begegnen uns überall: in Wettervorhersagen, durch Rundungsfehler im Computer, Bauteiltoleranzen oder Messungenauigkeiten. In Simulationen werden sie jedoch häufig nur am Rande beruecksichtigt.
 
 Die am Lehrstuhl fuer Mechatronik entwickelten Balanced Neural ODEs nutzen Methoden des probabilistischen Machine Learnings, um effizient und robust Ersatzmodelle fuer komplexe physikalische Systeme zu erzeugen. Bisher wird der probabilistische Anteil vor allem eingesetzt, um die Robustheit des Ansatzes zu verbessern. Wie gut sich damit auch Unsicherheiten repraesentieren lassen, wurde bislang jedoch kaum untersucht.
 
