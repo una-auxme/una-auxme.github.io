@@ -3,7 +3,7 @@ lang: de
 img_src: assets\mandischer\reha_profile.png
 title: Automatisierte Bereitstellung von IMBA-Anforderungsprofilerstellung
 additional_info:
-tags: ["ba,ma"]
+tags: ["ba", "ma"]
 date: 2026-08-04
 ---
 
