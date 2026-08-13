@@ -2,6 +2,15 @@
 
 ⚠️ **Updated Location**: Project pages are now in `/_pages/en/projects/` to integrate with the site theme.
 
+## Overview
+
+1. Create your project page in `/_pages/en/projects/`
+2. Add assets to `/assets/projects/your-project/`
+3. Add your project to the landing page at `/_pages/en/projects/index.md`
+4. Test locally
+
+The projects landing page is accessible via the "Projects" button in the site header.
+
 ## Step 1: Prepare Your Assets
 Create a folder for your project in `/assets/projects/`:
 ```
@@ -75,6 +84,27 @@ git add assets/projects/my-project-name/
 git commit -m "Add project page for My Project"
 git push
 ```
+
+## Step 7: Add to Projects Landing Page
+
+Edit `/_pages/en/projects/index.md` and add your project card in the `projects-grid` div:
+
+```html
+<div class="project-card">
+  <a href="{{ '/projects/my-project-name/' | relative_url }}">
+    <div class="project-image">
+      <img src="/assets/projects/my-project-name/header.jpg" alt="My Project">
+      <div class="project-overlay"></div>
+    </div>
+    <div class="project-content">
+      <h2 class="project-title">My Project Title</h2>
+      <p class="project-excerpt">Brief project description from your excerpt.</p>
+    </div>
+  </a>
+</div>
+```
+
+Your project will now appear on the main projects page (accessible via the "Projects" button in the header).
 
 ## Tips
 

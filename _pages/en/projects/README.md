@@ -2,6 +2,29 @@
 
 This folder contains English project pages that integrate with the site's minimal-mistakes theme.
 
+## Projects Landing Page
+
+The main projects page is at `/_pages/en/projects/index.md` and displays all projects in a grid layout.
+
+**To add your project to the landing page**, edit `index.md` and add a new project card:
+
+```html
+<div class="project-card">
+  <a href="{{ '/projects/your-project/' | relative_url }}">
+    <div class="project-image">
+      <img src="/assets/projects/your-project/header.jpg" alt="Your Project">
+      <div class="project-overlay"></div>
+    </div>
+    <div class="project-content">
+      <h2 class="project-title">Your Project Title</h2>
+      <p class="project-excerpt">Brief description of your project.</p>
+    </div>
+  </a>
+</div>
+```
+
+The landing page is accessible via the "Projects" button in the site header.
+
 ## Creating a New Project Page
 
 ### Quick Steps
@@ -25,6 +48,7 @@ header:
   overlay_color: "#000"                # Header overlay color
   overlay_filter: "0.5"                # Overlay opacity
   overlay_image: /assets/projects/your-project/header.jpg  # Header image
+  # caption: "Photo credit: **Your Name**"  # Optional: override default (Peter Krönes)
   actions:                             # Action buttons
     - label: "📄 Paper"
       url: "https://arxiv.org/..."
@@ -92,6 +116,28 @@ Use standard markdown with heading levels:
 </pre>
 </div>
 ```
+
+## Customizing Header Image Credit
+
+By default, all pages inherit the photo credit "Photo credit: **Peter Krönes**" from `_config.yml`.
+
+To use a different credit for your project page:
+
+```yaml
+header:
+  overlay_image: /assets/projects/your-project/header.jpg
+  caption: "Photo credit: **Jane Doe**"  # Override default attribution
+```
+
+To use no caption:
+
+```yaml
+header:
+  overlay_image: /assets/projects/your-project/header.jpg
+  caption: ""  # Empty caption
+```
+
+**Note:** If you don't specify a caption, the default "Peter Krönes" attribution is used automatically.
 
 ## Styling
 

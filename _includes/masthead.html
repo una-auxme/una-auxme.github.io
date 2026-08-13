@@ -12,6 +12,8 @@
           {% if site.subtitle %}<span class="site-subtitle">{{ site.subtitle }}</span>{% endif %}
         </a>
         {%- comment -%} Persistent button linking to main topics page. On the RoboCup page show a short team info message instead of the usual label. {%- endcomment -%}
+        {%- comment -%} Projects button - always points to English version {%- endcomment -%}
+        <a class="btn btn--primary" href="{{ '/en/projects/' | relative_url }}">{{ site.data.l10n.projects }}</a>
         {% if page.url == '/robocup/' or page.permalink == '/robocup/' %}
           {% if page.lang == 'de' %}
             <a class="btn btn--primary" href="/{{ '' | relative_url }}">Mehr Informationen zum Team Zirbi.</a>

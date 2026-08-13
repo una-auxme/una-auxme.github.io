@@ -2,6 +2,12 @@
 
 ⚠️ **This folder is deprecated.** Project pages have been moved to `/_pages/en/projects/` to integrate with the site's minimal-mistakes theme.
 
+## Projects Landing Page
+
+All projects are featured on the main projects page: `/_pages/en/projects/index.md`
+
+This page is accessible via the **"Projects"** button in the site header (available in both English and German, both pointing to the English version).
+
 ## Creating a New Project Page
 
 Project pages are now in: **`/_pages/en/projects/`**
@@ -37,7 +43,32 @@ Project pages are now in: **`/_pages/en/projects/`**
 
 6. **Test locally**: `bundle exec jekyll serve`
 
+6. **Add to landing page**: Edit `/_pages/en/projects/index.md` to add your project card
+
 7. **Access at**: `http://localhost:4000/en/projects/your-project-name/`
+
+## Adding to the Projects Landing Page
+
+After creating your project page, add it to the main projects page so it appears in the grid.
+
+Edit `/_pages/en/projects/index.md` and add a project card:
+
+```html
+<div class="project-card">
+  <a href="{{ '/projects/your-project-name/' | relative_url }}">
+    <div class="project-image">
+      <img src="/assets/projects/your-project-name/header.jpg" alt="Your Project">
+      <div class="project-overlay"></div>
+    </div>
+    <div class="project-content">
+      <h2 class="project-title">Your Project Title</h2>
+      <p class="project-excerpt">Brief description matching your excerpt.</p>
+    </div>
+  </a>
+</div>
+```
+
+The landing page will display your project with the header image, title, and excerpt in a responsive grid.
 
 ## Structure
 

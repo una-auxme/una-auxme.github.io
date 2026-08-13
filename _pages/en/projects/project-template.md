@@ -7,6 +7,7 @@ header:
   overlay_color: "#000"
   overlay_filter: "0.5"
   overlay_image: /assets/projects/your-project/header-image.jpg
+  # caption: "Photo credit: **Your Name**"  # Uncomment to override default (Peter Krönes)
   actions:
     - label: "📄 Paper"
       url: "#"
