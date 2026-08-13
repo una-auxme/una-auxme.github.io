@@ -188,5 +188,5 @@ This work was supported by [funding source]. We thank [collaborators] for their 
 ---
 
 <div style="text-align: center; margin-top: 3em; opacity: 0.7;">
-  <p>This website is licensed under a <a href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a>.</p>
+  <p>This website is licensed under a <a href="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a>.</p>
 </div>
