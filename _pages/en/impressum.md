@@ -33,5 +33,3 @@ Am Technologiezentrum 8
 
 We are not willing or obligated to participate in dispute resolution proceedings before a
 consumer arbitration board.
-
-Source: https://www.e-recht24.de

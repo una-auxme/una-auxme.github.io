@@ -9,7 +9,7 @@ date: 2026-08-04
 
 Gemeinsam mit dem Therapiezentrum Burgau erforschen wir, wie Roboter in der Rehabilitation nach Schlaganfall eingesetzt werden können. Ein wichtiger Aspekt dabei ist die Usability und die Akzeptanz durch die Patientinnen und Patienten.
 
-Im Rahmen der Studien- oder Abschlussarbeit soll untersucht werden, inwiefern Mixed Reality zur Unterstützung der Therapie eingesetzt werden kann. Die MR-Brillen sind bereits in das Robotersystem eingebunden. Für die Arbeit liegen zwei Microsoft HoloLens 2 vor, zwei HTC Vive Focus sind im Zulauf. Basierend darauf können verschiedene Themen in der Arbeit, je nach Umfang, fokussiert werden:
+Im Rahmen der Studien- oder Abschlussarbeit soll untersucht werden, inwiefern Mixed Reality zur Unterstützung der Therapie eingesetzt werden kann. Die MR-Brillen sind bereits in das Robotersystem eingebunden. Für die Arbeit liegen zwei Microsoft HoloLens 2 vor, zwei HTC Vive Focus sind im Zulauf. Basierend darauf können verschiedene Themen in der Arbeit, je nach Umfang, fokussiert werden:
 - Manipulation/Editieren von Roboterbewegungen in der virtuellen Welt
 - Implementierung eines Spiels zur Gamification der Reha
 - Virtuelle Adaption des Erscheinungsbilds des Roboters, der PatientInnen und der TherapeutInnen
