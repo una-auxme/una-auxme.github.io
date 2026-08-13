@@ -134,7 +134,8 @@ In this work, we adapt Hugging Face's SmolVLA for Universal Robots lightweight r
 
 ![Architecture](/assets/projects/ism2026_ros2smolvla/ros2smolvla_dataflow.png){: .align-center}
 {: .figure-caption}
-**Figure 1:** Data flow and architecture of ROS2SmolVLA and its components.
+**Figure 1:** Data flow and architecture of ROS2SmolVLA and its components.
+
 
 We present ROS2SmolVLA, a ROS 2-based interface that enables the deployment of Hugging Face’s lightweight SmolVLA model on industrial-grade Universal Robots UR10e. The framework bridges real-time robotic control with on-premise inference, allowing vision-language-action reasoning directly on edge hardware. By integrating multi-modal sensor data—visual inputs from multiple cameras, robot state feedback, and natural language instructions—ROS2SmolVLA enables adaptive, closed-loop robot behavior for tasks like pick-and-place, even in large workspaces.
 
@@ -171,6 +172,6 @@ The model demonstrated strong spatial reasoning in familiar configurations but s
 
 ---
 
-<div style="text-align: center; margin-top: 3em; opacity: 0.7;">
+  <p>This website is licensed under a <a href="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a>.</p>
   <p>This website is licensed under a <a href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a>.</p>
 </div>
