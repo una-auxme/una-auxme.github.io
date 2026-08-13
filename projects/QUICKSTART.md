@@ -33,6 +33,7 @@ header:
   overlay_color: "#000"
   overlay_filter: "0.5"
   overlay_image: /assets/projects/my-project-name/header.jpg
+  caption: "Photo credit: **Your Name**"  # Optional: override default (Peter Krönes)
   actions:
     - label: "📄 Paper"
       url: "https://arxiv.org/your-paper"
@@ -105,6 +106,21 @@ header:
     - label: "💻 Code"
       url: "#"
 ```
+
+### Override Photo Credit
+By default, all pages use "Photo credit: **Peter Krönes**". To override:
+```yaml
+header:
+  caption: "Photo credit: **Jane Doe**"
+```
+
+To remove the caption entirely:
+```yaml
+header:
+  caption: ""
+```
+
+If you don't specify a caption, the default attribution is used automatically.
 
 ## File Locations
 
