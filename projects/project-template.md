@@ -3,6 +3,7 @@ layout: single
 title: "Project Title: Subtitle Goes Here"
 permalink: /projects/project-template/
 lang: en
+published: false
 header:
   overlay_color: "#000"
   overlay_filter: "0.5"
@@ -188,5 +189,6 @@ This work was supported by [funding source]. We thank [collaborators] for their 
 ---
 
 <div style="text-align: center; margin-top: 3em; opacity: 0.7;">
-  <p>This website is licensed under a <a href="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a>.</p>
+  <p>This website is licensed under a <a href="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a>.</p>
+
 </div>
