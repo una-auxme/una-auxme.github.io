@@ -4,7 +4,7 @@ This folder contains English project pages that integrate with the site's minima
 
 ## Projects Landing Page
 
-The main projects page is at `/_pages/en/projects/index.md` and displays all projects in a grid layout.
+The main projects landing page should be created at `/_pages/en/projects/index.md` (with `permalink: /projects/` so it renders at `/en/projects/`) and should display all projects in a grid layout.
 
 **To add your project to the landing page**, edit `index.md` and add a new project card:
 
