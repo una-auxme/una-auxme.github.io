@@ -9,12 +9,14 @@ header:
   overlay_image: /assets/projects/ism2026_ros2smolvla/workbench_overview_cropped.jpg
   caption: "Photo credit: Noah Böckmann"
   actions:
-    - label: "📄 Paper"
-      url: "#"
+#    - label: "📄 Paper"
+#      url: "#"
     - label: "💻 Code"
       url: "https://github.com/una-auxme/ur10e_vla_docker"
-    - label: "📊 arXiv"
-      url: "#"
+#    - label: "📊 arXiv"
+#      url: "#"
+    - label: "💾 Data"
+      url: "https://huggingface.co/collections/una-auxme/ros2smolvla"
 excerpt: "ROS2SmolVLA enables industrial-grade lightweight robots to use small Vision-Language-Action (VLA) Models integrated with ROS 2."
 author_profile: false
 toc: false
@@ -98,7 +100,7 @@ toc_sticky: true
 <div class="project-meta">
   <div class="authors">
     <a href="https://scholar.google.de/citations?user=oQEw8bsAAAAJ&hl=de">Nils Mandischer</a>
-    <a>Noah Böckmann</a>
+    <a href="https://www.noahb.de/">Noah Böckmann</a>
     <a>Ludwig Holl</a>
     <a href="https://scholar.google.de/citations?user=-5UzGXkAAAAJ&hl=de">Lars Mikelsons</a>
   </div>
@@ -141,11 +143,15 @@ We present ROS2SmolVLA, a ROS 2-based interface that enables the deployment of H
 
 ### Key Components
 
-- **ROS 2 Interface ([LeRobot-ROS2 interface](https://github.com/una-auxme/lerobot-ros)):** Acts as a lightweight broker between the LeRobot ecosystem and ROS 2, enabling seamless communication between the VLA policy and robot controllers without managing low-level hardware cycles.
-- **Multi-Modal Data Acquisition ([LeRobot-camera interface](https://github.com/una-auxme/lerobot-roscam)):** Standardizes ingestion of asynchronous camera feeds from top, side, and end-effector-mounted cameras, converting them into uncompressed images compatible with SmolVLA’s input requirements.
-- **Containerized Inference ([UR10e VLA Docker](https://github.com/una-auxme/ur10e_vla_docker)):** Isolates dependencies and ensures reproducibility across development, simulation, and production environments, enabling efficient execution on edge devices with consumer-grade hardware.
-- **Simulation Environment ([UR10e simulation in Gazebo](https://github.com/una-auxme/ur10e_vla_sim)):** A Gazebo-based digital twin that replicates the physical robot’s kinematics, camera setup, and workspace layout, enabling pre-validation and policy testing in a simulated environment before real-world deployment.
-- **Real-World Data Collection ([UR10e interface](https://github.com/una-auxme/ur10e_vla_real)):** A dedicated ROS 2 package for capturing high-fidelity, real-world training data from the physical UR10e setup, including synchronized joint states, camera streams, and action trajectories—essential for robust, sim-to-real transfer and model fine-tuning.
+**Data and Model Parameters**
+Training and evaluation data sets, and model parameters are available in our Hugging Face collection [ROS2SmolVLA](https://huggingface.co/collections/una-auxme/ros2smolvla).
+
+**Software**
+- **ROS 2 Interface ([LeRobot-ROS2 interface](https://github.com/una-auxme/ros2smolvla_interface_lerobot)):** Acts as a lightweight broker between the LeRobot ecosystem and ROS 2, enabling seamless communication between the VLA policy and robot controllers without managing low-level hardware cycles.
+- **Multi-Modal Data Acquisition ([LeRobot-camera interface](https://github.com/una-auxme/ros2smolvla_interface_camera)):** Standardizes ingestion of asynchronous camera feeds from top, side, and end-effector-mounted cameras, converting them into uncompressed images compatible with SmolVLA’s input requirements.
+- **Containerized Inference ([UR10e VLA Docker](https://github.com/una-auxme/ros2smolvla_docker)):** Isolates dependencies and ensures reproducibility across development, simulation, and production environments, enabling efficient execution on edge devices with consumer-grade hardware.
+- **Simulation Environment ([UR10e simulation in Gazebo](https://github.com/una-auxme/ros2smolvla_ur10e_sim)):** A Gazebo-based digital twin that replicates the physical robot’s kinematics, camera setup, and workspace layout, enabling pre-validation and policy testing in a simulated environment before real-world deployment.
+- **Real-World Data Collection ([UR10e interface](https://github.com/una-auxme/ros2smolvla_ur10e_real)):** A dedicated ROS 2 package for capturing high-fidelity, real-world training data from the physical UR10e setup, including synchronized joint states, camera streams, and action trajectories—essential for robust, sim-to-real transfer and model fine-tuning.
 
 ## Results
 
@@ -164,7 +170,7 @@ The model demonstrated strong spatial reasoning in familiar configurations but s
 @inproceedings{ros2smolvla2026,
     author    = {Mandischer, Nils and B\"{o}ckmann, Noah and Holl, Ludwig and Mikelsons, Lars},
     title     = {ROS2SmolVLA: Enabling Small Vision-Language-Action Models for Integration into Industrial-Grade Lightweight Robots},
-    booktitle = {International Conference on Industry of the Future and Smart Manufacturing, Padua \& Venice, Italy},
+    booktitle = {International Conference on Industry of the Future and Smart Manufacturing},
     year      = {2026}
 }
 </pre>
