@@ -18,6 +18,8 @@ header:
       url: "#"
     - label: "🎥 YouTube"
       url: "#"
+    - label: "💾 Data"
+      url: "#"
 excerpt: "Brief tagline describing the main contribution or key message of your work"
 author_profile: false
 toc: true
