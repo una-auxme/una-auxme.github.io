@@ -123,7 +123,7 @@ In this work, we adapt Hugging Face's SmolVLA for Universal Robots lightweight r
 ## Video
 
 <div class="video-container">
-  <iframe src="https://www.youtube.com/embed/rlC03Z4fm88" 
+  <iframe src="https://www.youtube.com/embed/no-r3nYV--8" 
           frameborder="0" 
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
           allowfullscreen>
@@ -144,7 +144,7 @@ We present ROS2SmolVLA, a ROS 2-based interface that enables the deployment of H
 ### Key Components
 
 **Data and Model Parameters**
-Training and evaluation datasets and model parameters are available in our Hugging Face collection [ROS2SmolVLA](https://huggingface.co/collections/una-auxme/ros2smolvla).
+Training and evaluation data sets, and model parameters are available in our Hugging Face collection [ROS2SmolVLA](https://huggingface.co/collections/una-auxme/ros2smolvla).
 
 **Software**
 - **ROS 2 Interface ([LeRobot-ROS2 interface](https://github.com/una-auxme/ros2smolvla_interface_lerobot)):** Acts as a lightweight broker between the LeRobot ecosystem and ROS 2, enabling seamless communication between the VLA policy and robot controllers without managing low-level hardware cycles.
