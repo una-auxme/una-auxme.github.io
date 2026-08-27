@@ -167,11 +167,13 @@ The model demonstrated strong spatial reasoning in familiar configurations but s
 
 <div class="bibtex-box">
 <pre>
-@inproceedings{ros2smolvla2026,
-    author    = {Mandischer, Nils and B\"{o}ckmann, Noah and Holl, Ludwig and Mikelsons, Lars},
-    title     = {ROS2SmolVLA: Enabling Small Vision-Language-Action Models for Integration into Industrial-Grade Lightweight Robots},
-    booktitle = {International Conference on Industry of the Future and Smart Manufacturing},
-    year      = {2026}
+@misc{ros2smolvla2026,
+      title={ROS2SmolVLA: Enabling Small Vision-Language-Action Models for Integration into Industrial-Grade Lightweight Robots}, 
+      author={Nils Mandischer and Noah Böckmann and Ludwig Holl and Lars Mikelsons},
+      year={2026},
+      eprint={2608.23320},
+      archivePrefix={arXiv},
+      url={https://arxiv.org/abs/2608.23320}, 
 }
 </pre>
 </div>
