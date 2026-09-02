@@ -1,4 +1,4 @@
-{% for lang in site.languages %}
+{%- for lang in site.languages -%}
     {% assign lang_name = site.data[lang].l10n.lang_name %}
     {% if lang == site.active_lang %}
     {% else %}
