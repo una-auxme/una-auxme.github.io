@@ -13,8 +13,8 @@ header:
 #      url: "#"
     - label: "💻 Code"
       url: "https://github.com/una-auxme/ur10e_vla_docker"
-#    - label: "📊 arXiv"
-#      url: "#"
+    - label: "📄 arXiv"
+      url: "https://arxiv.org/abs/2608.23320"
     - label: "💾 Data"
       url: "https://huggingface.co/collections/una-auxme/ros2smolvla"
 excerpt: "ROS2SmolVLA enables industrial-grade lightweight robots to use small Vision-Language-Action (VLA) Models integrated with ROS 2."
@@ -101,7 +101,7 @@ toc_sticky: true
   <div class="authors">
     <a href="https://scholar.google.de/citations?user=oQEw8bsAAAAJ&hl=de">Nils Mandischer</a>
     <a href="https://www.noahb.de/">Noah Böckmann</a>
-    <a>Ludwig Holl</a>
+    <a href="https://www.linkedin.com/in/ludwig-holl/">Ludwig Holl</a>
     <a href="https://scholar.google.de/citations?user=-5UzGXkAAAAJ&hl=de">Lars Mikelsons</a>
   </div>
   
@@ -169,7 +169,7 @@ The model demonstrated strong spatial reasoning in familiar configurations but s
 <pre>
 @misc{ros2smolvla2026,
       title={ROS2SmolVLA: Enabling Small Vision-Language-Action Models for Integration into Industrial-Grade Lightweight Robots}, 
-      author={Nils Mandischer and Noah Böckmann and Ludwig Holl and Lars Mikelsons},
+      author={Nils Mandischer and Noah B\"{o}ckmann and Ludwig Holl and Lars Mikelsons},
       year={2026},
       eprint={2608.23320},
       archivePrefix={arXiv},
