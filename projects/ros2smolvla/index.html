@@ -1,0 +1,451 @@
+<!doctype html>
+<!--
+  Minimal Mistakes Jekyll Theme 4.26.2 by Michael Rose
+  Copyright 2013-2024 Michael Rose - mademistakes.com | @mmistakes
+  Free for personal and commercial use under the MIT license
+  https://github.com/mmistakes/minimal-mistakes/blob/master/LICENSE
+-->
+
+<html lang="en" class="no-js">
+  <head>
+    <meta charset="utf-8">
+
+<!-- begin _includes/seo.html --><title>ROS2SmolVLA: Enabling Small Vision-Language-Action Models for Integration into Industrial-Grade Lightweight Robots - AuxMe</title>
+<meta name="description" content="ROS2SmolVLA enables industrial-grade lightweight robots to use small Vision-Language-Action (VLA) Models integrated with ROS 2.">
+
+
+
+<meta property="og:type" content="website">
+<meta property="og:locale" content="en_US">
+<meta property="og:site_name" content="AuxMe">
+<meta property="og:title" content="ROS2SmolVLA: Enabling Small Vision-Language-Action Models for Integration into Industrial-Grade Lightweight Robots">
+<meta property="og:url" content="https://una-auxme.github.io/projects/ros2smolvla/">
+
+
+  <meta property="og:description" content="ROS2SmolVLA enables industrial-grade lightweight robots to use small Vision-Language-Action (VLA) Models integrated with ROS 2.">
+
+
+
+  <meta property="og:image" content="https://una-auxme.github.io/assets/projects/ism2026_ros2smolvla/workbench_overview_cropped.jpg">
+
+
+
+
+
+
+
+
+
+
+<link rel="canonical" href="https://una-auxme.github.io/projects/ros2smolvla/">
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- end _includes/seo.html -->
+
+
+<!-- https://t.co/dKP3o1e -->
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<script>
+  document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + ' js ';
+</script>
+
+<!-- For all browsers -->
+<link rel="stylesheet" href="/assets/css/main.css">
+<link rel="shortcut icon" type="image/png" href="/assets/logo/logo.png">
+<link rel="preload" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5/css/all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+<noscript><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5/css/all.min.css"></noscript>
+
+
+
+    <!-- start custom head snippets -->
+
+<!-- insert favicons. use https://realfavicongenerator.net/ -->
+
+<!-- end custom head snippets -->
+
+  </head>
+
+  <body class="layout--single">
+    <nav class="skip-links">
+  <ul>
+    <li><a href="#site-nav" class="screen-reader-shortcut">Skip to primary navigation</a></li>
+    <li><a href="#main" class="screen-reader-shortcut">Skip to content</a></li>
+    <li><a href="#footer" class="screen-reader-shortcut">Skip to footer</a></li>
+  </ul>
+</nav>
+
+    
+
+<div class="masthead">
+  <div class="masthead__inner-wrap">
+    <div class="masthead__menu">
+      <nav id="site-nav" class="greedy-nav">
+        
+          <a class="site-logo" href="/"><img src="/assets/logo/logo.png" alt="Lehrstuhl für Mechatronik"></a>
+        
+        <a class="site-title" href="/">
+          Lehrstuhl für Mechatronik
+          
+        </a><a class="btn btn--primary" href="/en/projects/">Projekte</a>
+        
+          <a class="btn btn--primary" href="/">Abschluss- & Forschungsarbeiten</a>
+        
+            
+            <a class="btn btn--primary masthead__robocup-btn" href="/robocup/">RoboCup@Home</a>
+          
+        
+        <ul class="visible-links"></ul>
+        <div class="lang-switcher">
+          
+    
+    
+
+    
+        
+            <a href="/en">English</a>
+        
+    
+
+        </div>        
+        
+        <button class="greedy-nav__toggle hidden" type="button">
+          <span class="visually-hidden">Toggle menu</span>
+          <div class="navicon"></div>
+        </button>
+        <ul class="hidden-links hidden"></ul>
+      </nav>
+    </div>
+  </div>
+</div>
+
+
+    <div class="initial-content">
+      
+  
+
+
+
+
+
+
+
+<div class="page__hero--overlay"
+  style="background-color: #000; background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('/assets/projects/ism2026_ros2smolvla/workbench_overview_cropped.jpg');"
+>
+  
+    <div class="wrapper">
+      <h1 id="page-title" class="page__title" itemprop="headline">
+        
+          ROS2SmolVLA: Enabling Small Vision-Language-Action Models for Integration into Industrial-Grade Lightweight Robots
+
+        
+      </h1>
+      
+        <p class="page__lead">ROS2SmolVLA enables industrial-grade lightweight robots to use small Vision-Language-Action (VLA) Models integrated with ROS 2.
+</p>
+      
+      
+
+
+      
+        <p>
+        
+          <a href="https://github.com/una-auxme/ur10e_vla_docker" class="btn btn--light-outline btn--large">💻 Code</a>
+        
+          <a href="https://arxiv.org/abs/2608.23320" class="btn btn--light-outline btn--large">📄 arXiv</a>
+        
+          <a href="https://huggingface.co/collections/una-auxme/ros2smolvla" class="btn btn--light-outline btn--large">💾 Data</a>
+        
+        </p>
+      
+    </div>
+  
+  
+    <span class="page__hero-caption">Photo credit: Noah Böckmann
+</span>
+  
+</div>
+
+
+
+
+
+
+
+<div id="main" role="main">
+  
+
+
+  <article class="page" itemscope itemtype="https://schema.org/CreativeWork">
+    <meta itemprop="headline" content="ROS2SmolVLA: Enabling Small Vision-Language-Action Models for Integration into Industrial-Grade Lightweight Robots">
+    <meta itemprop="description" content="ROS2SmolVLA enables industrial-grade lightweight robots to use small Vision-Language-Action (VLA) Models integrated with ROS 2.">
+    
+    
+
+    <div class="page__inner-wrap">
+      
+
+      <section class="page__content" itemprop="text">
+        
+        <style>
+.project-meta {
+    text-align: center;
+    margin: 2em 0;
+    padding: 1.5em;
+    border-radius: 8px;
+    background: rgba(255,255,255,0.05);
+}
+
+.authors {
+    margin: 1em 0;
+    font-size: 1.1em;
+}
+
+.authors a {
+    margin: 0 0.5em;
+}
+
+.award-badge {
+    display: inline-block;
+    background: linear-gradient(135deg, #ffd700 0%, #ffed4e 100%);
+    color: #000;
+    padding: 0.5em 1em;
+    border-radius: 20px;
+    margin: 0.5em;
+    font-weight: 600;
+}
+
+.video-container {
+    position: relative;
+    padding-bottom: 56.25%;
+    height: 0;
+    overflow: hidden;
+    margin: 2em 0;
+    border-radius: 8px;
+    background: rgba(255,255,255,0.05);
+}
+
+.video-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.figure-caption {
+    text-align: center;
+    font-style: italic;
+    margin-top: 1em;
+    opacity: 0.8;
+}
+
+.bibtex-box {
+    background: rgba(255,255,255,0.05);
+    border-left: 4px solid #667eea;
+    padding: 1.5em;
+    margin: 1.5em 0;
+    font-family: 'Courier New', monospace;
+    font-size: 0.9em;
+    overflow-x: auto;
+    border-radius: 4px;
+}
+
+.note-box {
+    background: rgba(255, 193, 7, 0.1);
+    border-left: 4px solid #ffc107;
+    padding: 1em;
+    margin: 1.5em 0;
+    border-radius: 4px;
+}
+</style>
+
+<div class="project-meta">
+  <div class="authors">
+    <a href="https://scholar.google.de/citations?user=oQEw8bsAAAAJ&amp;hl=de">Nils Mandischer</a>
+    <a href="https://www.noahb.de/">Noah Böckmann</a>
+    <a href="https://www.linkedin.com/in/ludwig-holl/">Ludwig Holl</a>
+    <a href="https://scholar.google.de/citations?user=-5UzGXkAAAAJ&amp;hl=de">Lars Mikelsons</a>
+  </div>
+  
+  <div class="affiliations">
+    <a href="https://www.uni-augsburg.de/de/fakultaet/fai/informatik/prof/imech/">University of Augsburg, Chair of Mechatronics</a> 
+  </div>
+  
+  <div style="margin-top: 1em;">
+    <strong>International Conference on Industry of the Future and Smart Manufacturing 2026</strong>
+  </div>
+</div>
+
+<h2 id="abstract">Abstract</h2>
+
+<p>Industrial demand changes the paradigms of production. Due to smaller batch sizes and more variations in products, companies face a growing challenge to adopt more adaptive production systems. In particular, robot-based automation is usually static and fails to respond to constantly changing production environments. Vision-Language-Action Models are a promising opportunity to mitigate this challenge by generating robot actions based on the observed system state. However, current research either focuses on large models that cannot be computed on premise, creating compliance and security challenges, or use lab-grade robot hardware that obscures exploitation in real industrial settings.</p>
+
+<p>In this work, we adapt Hugging Face’s SmolVLA for Universal Robots lightweight robots. Further, we release the open source repository ROS2SmolVLA that implements an interface for ROS~2 to SmolVLA, and makes it applicable for industrial-grade robots. By this, we allow a lenient adoption into lab and industrial environments. We validate the functionality of SmolVLA for a Universal Robots UR10e using a pick-and-place task and give implementation guidelines, particularly related to the larger robot workspace compared to the small 3D-printable robots commonly used with SmolVLA. Our findings support that SmolVLA is an interesting opportunity for small sized tasks that need to be computed on premise.</p>
+
+<h2 id="video">Video</h2>
+
+<div class="video-container">
+  <iframe src="https://www.youtube.com/embed/no-r3nYV--8" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="">
+  </iframe>
+</div>
+
+<p><strong>Key Insight:</strong> SmolVLA produces feasible results in and out of distribution in a pick-and-place task.</p>
+
+<h2 id="method-overview">Method Overview</h2>
+
+<p class="figure-caption"><img src="/assets/projects/ism2026_ros2smolvla/ros2smolvla_dataflow.png" alt="Architecture" class="align-center" /></p>
+<p><strong>Figure 1:</strong> Data flow and architecture of ROS2SmolVLA and its components.</p>
+
+<p>We present ROS2SmolVLA, a ROS 2-based interface that enables the deployment of Hugging Face’s lightweight SmolVLA model on industrial-grade Universal Robots UR10e. The framework bridges real-time robotic control with on-premise inference, allowing vision-language-action reasoning directly on edge hardware. By integrating multi-modal sensor data—visual inputs from multiple cameras, robot state feedback, and natural language instructions—ROS2SmolVLA enables adaptive, closed-loop robot behavior for tasks like pick-and-place, even in large workspaces.</p>
+
+<h3 id="key-components">Key Components</h3>
+
+<p><strong>Data and Model Parameters</strong>
+Training and evaluation data sets, and model parameters are available in our Hugging Face collection <a href="https://huggingface.co/collections/una-auxme/ros2smolvla">ROS2SmolVLA</a>.</p>
+
+<p><strong>Software</strong></p>
+<ul>
+  <li><strong>ROS 2 Interface (<a href="https://github.com/una-auxme/ros2smolvla_interface_lerobot">ros2smolvla_interface_lerobot</a>):</strong> Acts as a lightweight broker between the LeRobot ecosystem and ROS 2, enabling seamless communication between the VLA policy and robot controllers without managing low-level hardware cycles.</li>
+  <li><strong>Multi-Modal Data Acquisition (<a href="https://github.com/una-auxme/ros2smolvla_interface_camera">ros2smolvla_interface_camera</a>):</strong> Standardizes ingestion of asynchronous camera feeds from top, side, and end-effector-mounted cameras, converting them into uncompressed images compatible with SmolVLA’s input requirements.</li>
+  <li><strong>Containerized Inference (<a href="https://github.com/una-auxme/ros2smolvla_docker">ros2smolvla_docker</a>):</strong> Isolates dependencies and ensures reproducibility across development, simulation, and production environments, enabling efficient execution on edge devices with consumer-grade hardware.</li>
+  <li><strong>Simulation Environment (<a href="https://github.com/una-auxme/ros2smolvla_ur10e_sim">ros2smolvla_ur10e_sim</a>):</strong> A Gazebo-based digital twin that replicates the physical robot’s kinematics, camera setup, and workspace layout, enabling pre-validation and policy testing in a simulated environment before real-world deployment.</li>
+  <li><strong>Real-World Data Collection (<a href="https://github.com/una-auxme/ros2smolvla_ur10e_real">ros2smolvla_ur10e_real</a>):</strong> A dedicated ROS 2 package for capturing high-fidelity, real-world training data from the physical UR10e setup, including synchronized joint states, camera streams, and action trajectories—essential for robust, sim-to-real transfer and model fine-tuning.</li>
+</ul>
+
+<h2 id="results">Results</h2>
+
+<h3 id="quantitative-results">Quantitative Results</h3>
+
+<p>The system achieved <strong>77.72% overall success rate</strong> in pick-and-place tasks across 9 test scenarios. In-distribution tasks reached <strong>78.33%</strong> pick and <strong>92.47% place after successful pick</strong>, while out-of-distribution cases showed <strong>76.56% pick</strong> but dropped to <strong>61.22% place after pick</strong>, primarily due to visual biases. Color and shape generalization remained limited, with gray cubes picked correctly only 20% of the time when explicitly prompted.</p>
+
+<h3 id="qualitative-analysis">Qualitative Analysis</h3>
+
+<p>The model demonstrated strong spatial reasoning in familiar configurations but struggled with occlusions and novel box colors (e.g., black box detection failed in 83% of cases). A significant bias toward blue objects as a drop trigger was observed, indicating overfitting to training data textures. Despite this, the system successfully recovered from failed grasps in 75% of attempts, highlighting the value of failure-state training. Lessons learned emphasize the need for diverse training data, strategic camera cropping, and careful prompt engineering to mitigate model biases.</p>
+
+<h2 id="citation">Citation</h2>
+
+<div class="bibtex-box">
+<pre>
+@misc{ros2smolvla2026,
+      title={ROS2SmolVLA: Enabling Small Vision-Language-Action Models for Integration into Industrial-Grade Lightweight Robots}, 
+      author={Nils Mandischer and Noah B\"{o}ckmann and Ludwig Holl and Lars Mikelsons},
+      year={2026},
+      eprint={2608.23320},
+      archivePrefix={arXiv},
+      url={https://arxiv.org/abs/2608.23320}, 
+}
+</pre>
+</div>
+
+<hr />
+
+<p>This website is licensed under a <a href="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a>.</p>
+
+        
+      </section>
+
+      <footer class="page__meta">
+        
+        
+
+
+        
+
+      </footer>
+
+      
+
+      
+    </div>
+
+    
+  </article>
+
+  
+  
+</div>
+
+      
+    </div>
+
+    
+
+    <div id="footer" class="page__footer">
+      <footer>
+        <!-- start custom footer snippets -->
+
+<!-- end custom footer snippets -->
+        <div class="page__footer-follow">
+  <ul class="social-icons">
+    
+      
+      
+        
+          
+          
+            <li><a href="https://github.com/una-auxme" rel="nofollow noopener noreferrer"><i class="fab fa-fw fa-github" aria-hidden="true"></i> GitHub</a></li>
+          
+        
+      
+        
+          
+          
+        
+      
+        
+          
+          
+        
+      
+
+      
+      
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+          
+          
+      
+        <li><a href="/impressum/" rel="nofollow noopener noreferrer"><i class="fas fa-fw fa-file"></i> Impressum</a></li>
+      
+    
+  </ul>
+</div>
+
+<div class="page__footer-copyright">&copy; 2026 Lehrstuhl für Mechatronik. Powered by <a href="https://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>.</div>
+
+      </footer>
+    </div>
+
+    
+  <script src="/assets/js/main.min.js"></script>
+
+
+
+
+
+
+
+
+
+  </body>
+</html>

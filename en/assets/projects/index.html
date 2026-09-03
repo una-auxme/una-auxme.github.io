@@ -1,0 +1,259 @@
+<!doctype html>
+<!--
+  Minimal Mistakes Jekyll Theme 4.26.2 by Michael Rose
+  Copyright 2013-2024 Michael Rose - mademistakes.com | @mmistakes
+  Free for personal and commercial use under the MIT license
+  https://github.com/mmistakes/minimal-mistakes/blob/master/LICENSE
+-->
+
+<html lang="en" class="no-js">
+  <head>
+    <meta charset="utf-8">
+
+<!-- begin _includes/seo.html --><title>Project Assets - AuxMe</title>
+<meta name="description" content="Der Lehrstuhl für Mechatronik zeichnet sich durch eine wegweisende Verknüpfung von physikalischem Verständnis, mechatronischem Engineering und Scientific Machine Learning aus. Unsere Expertise liegt darin, komplexe Interaktionen zwischen mechanischen, elektronischen und weiteren Subsystemen zu verstehen, zu modellieren und zu optimieren.">
+
+
+
+<meta property="og:type" content="website">
+<meta property="og:locale" content="en_US">
+<meta property="og:site_name" content="AuxMe">
+<meta property="og:title" content="Project Assets">
+<meta property="og:url" content="https://una-auxme.github.io/assets/projects/">
+
+
+  <meta property="og:description" content="Der Lehrstuhl für Mechatronik zeichnet sich durch eine wegweisende Verknüpfung von physikalischem Verständnis, mechatronischem Engineering und Scientific Machine Learning aus. Unsere Expertise liegt darin, komplexe Interaktionen zwischen mechanischen, elektronischen und weiteren Subsystemen zu verstehen, zu modellieren und zu optimieren.">
+
+
+
+
+
+
+
+
+
+
+
+
+<link rel="canonical" href="https://una-auxme.github.io/en/assets/projects/">
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- end _includes/seo.html -->
+
+
+<!-- https://t.co/dKP3o1e -->
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<script>
+  document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + ' js ';
+</script>
+
+<!-- For all browsers -->
+<link rel="stylesheet" href="/en/assets/css/main.css">
+<link rel="shortcut icon" type="image/png" href="/en/assets/logo/logo.png">
+<link rel="preload" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5/css/all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+<noscript><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5/css/all.min.css"></noscript>
+
+
+
+    <!-- start custom head snippets -->
+
+<!-- insert favicons. use https://realfavicongenerator.net/ -->
+
+<!-- end custom head snippets -->
+
+  </head>
+
+  <body class="layout--default">
+    <nav class="skip-links">
+  <ul>
+    <li><a href="#site-nav" class="screen-reader-shortcut">Skip to primary navigation</a></li>
+    <li><a href="#main" class="screen-reader-shortcut">Skip to content</a></li>
+    <li><a href="#footer" class="screen-reader-shortcut">Skip to footer</a></li>
+  </ul>
+</nav>
+
+    
+
+<div class="masthead masthead--en">
+  <div class="masthead__inner-wrap">
+    <div class="masthead__menu">
+      <nav id="site-nav" class="greedy-nav">
+        
+          <a class="site-logo" href="/en/"><img src="/assets/logo/logo.png" alt="Chair of Mechatronics"></a>
+        
+        <a class="site-title" href="/en/">
+          Chair of Mechatronics
+          
+        </a><a class="btn btn--primary" href="/en/projects/">Projects</a>
+        
+          <a class="btn btn--primary" href="/en/">Student Theses</a>
+        
+            
+            <a class="btn btn--primary masthead__robocup-btn" href="/en/robocup/">RoboCup@Home</a>
+          
+        
+        <ul class="visible-links"></ul>
+        <div class="lang-switcher">
+          
+    
+        
+            <a href=" /">Deutsch</a>
+        
+    
+
+    
+    
+
+        </div>        
+        
+        <button class="greedy-nav__toggle hidden" type="button">
+          <span class="visually-hidden">Toggle menu</span>
+          <div class="navicon"></div>
+        </button>
+        <ul class="hidden-links hidden"></ul>
+      </nav>
+    </div>
+  </div>
+</div>
+
+
+    <div class="initial-content">
+      <h1 id="project-assets">Project Assets</h1>
+
+<p>This folder contains assets (images, videos, data files, etc.) for project pages.</p>
+
+<h2 id="organization">Organization</h2>
+
+<p>Each project should have its own subfolder:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>assets/projects/
+├── example-project-1/
+│   ├── hero-image.png
+│   ├── results-figure.png
+│   └── diagram.svg
+├── example-project-2/
+│   ├── comparison.png
+│   └── ablation.png
+└── README.md (this file)
+</code></pre></div></div>
+
+<h2 id="file-naming-conventions">File Naming Conventions</h2>
+
+<p>Use descriptive, lowercase names with hyphens:</p>
+<ul>
+  <li>✅ <code class="language-plaintext highlighter-rouge">results-comparison.png</code></li>
+  <li>✅ <code class="language-plaintext highlighter-rouge">ablation-study-graph.png</code></li>
+  <li>✅ <code class="language-plaintext highlighter-rouge">system-architecture-diagram.svg</code></li>
+  <li>❌ <code class="language-plaintext highlighter-rouge">fig1.png</code></li>
+  <li>❌ <code class="language-plaintext highlighter-rouge">ResultsComparison.png</code></li>
+</ul>
+
+<h2 id="recommended-file-formats">Recommended File Formats</h2>
+
+<ul>
+  <li><strong>Images</strong>: PNG (for screenshots, graphs), JPG (for photos), SVG (for diagrams)</li>
+  <li><strong>Videos</strong>: Host on YouTube/Vimeo and embed (don’t store large video files in repo)</li>
+  <li><strong>Data</strong>: JSON, CSV for interactive visualizations</li>
+</ul>
+
+<h2 id="image-size-guidelines">Image Size Guidelines</h2>
+
+<ul>
+  <li>Hero images: 1200-1600px wide</li>
+  <li>Result figures: 800-1200px wide</li>
+  <li>Thumbnails: 300-400px wide</li>
+  <li>Keep file sizes under 500KB when possible (optimize images)</li>
+</ul>
+
+<h2 id="optimization-tips">Optimization Tips</h2>
+
+<ol>
+  <li>Compress images before adding them to the repository</li>
+  <li>Use appropriate formats (PNG for graphics, JPG for photos)</li>
+  <li>Consider using SVG for diagrams and charts (scalable and small file size)</li>
+  <li>Host videos externally rather than in the repository</li>
+</ol>
+
+      
+    </div>
+
+    
+
+    <div id="footer" class="page__footer">
+      <footer>
+        <!-- start custom footer snippets -->
+
+<!-- end custom footer snippets -->
+        <div class="page__footer-follow">
+  <ul class="social-icons">
+    
+      
+      
+        
+          
+          
+            <li><a href="https://github.com/una-auxme" rel="nofollow noopener noreferrer"><i class="fab fa-fw fa-github" aria-hidden="true"></i> GitHub</a></li>
+          
+        
+      
+        
+          
+          
+        
+      
+        
+          
+          
+        
+      
+
+      
+      
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+          
+          
+      
+        <li><a href="/en/impressum/" rel="nofollow noopener noreferrer"><i class="fas fa-fw fa-file"></i> Imprint</a></li>
+      
+    
+  </ul>
+</div>
+
+<div class="page__footer-copyright">&copy; 2026 Chair of Mechatronics. Powered by <a href="https://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>.</div>
+
+      </footer>
+    </div>
+
+    
+  <script src="/assets/js/main.min.js"></script>
+
+
+
+
+
+
+
+
+
+  </body>
+</html>
