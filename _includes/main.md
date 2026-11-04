@@ -48,11 +48,11 @@
   {% endif %}
 {% endfor %}
 
-{% for jk in site.kircher %}
-  {% if jk.lang == page.lang %}
-    {% for tag in jk.tags %}
+{% for jj in site.jouaux %}
+  {% if jj.lang == page.lang %}
+    {% for tag in jj.tags %}
       {% if page.tag contains tag %}
-        {% assign topics = topics | push: jk %}
+        {% assign topics = topics | push: jj %}
         {% break %}
       {% endif %}
     {% endfor %}

@@ -98,9 +98,9 @@ defaults:
     values:
       contact: "andreas-hofmann"
   - scope:
-      path: "topics/_kircher"
+      path: "topics/_jouaux"
     values:
-      contact: "josef-kircher"
+      contact: "josef-jouaux"
   - scope:
       path: "topics/_kroenes"
     values:
@@ -131,7 +131,7 @@ collections:
   - boborzi
   - hoepfner
   - hofmann
-  - kircher
+  - jouaux
   - kroenes
   - luttkus
   - mandischer
