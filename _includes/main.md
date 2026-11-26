@@ -48,6 +48,17 @@
   {% endif %}
 {% endfor %}
 
+{% for lh in site.holl %}
+  {% if lh.lang == page.lang %}
+    {% for tag in lh.tags %}
+      {% if page.tag contains tag %}
+        {% assign topics = topics | push: lh %}
+        {% break %}
+      {% endif %}
+    {% endfor %}
+  {% endif %}
+{% endfor %}
+
 {% for jj in site.jouaux %}
   {% if jj.lang == page.lang %}
     {% for tag in jj.tags %}
